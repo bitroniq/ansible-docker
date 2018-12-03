@@ -194,10 +194,7 @@ Then the roles will be played:
 ```
 * `common` will install the basic packages:
   - name: Ensure git is present
-  - name: Ensure python-pip is present
-  - name: Ensure kdiff3 is present
   - name: Ensure vim is present
-  - name: Ensure vim-gtk is present
   - name: Ensure mc is present
 * `geerlingguy.docker` - Ansible Galaxy role to install latest Docker - maintained by the community
 * `geerlingguy.java` - Ansible Galaxy role to install Java - maintained by the community
